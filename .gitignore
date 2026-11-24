@@ -1,0 +1,10 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+__MACOSX/
+dataset-resized/
+data/
+*.zip
+outputs/webcam/
+*.tmp

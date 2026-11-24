@@ -1,0 +1,66 @@
+{
+  "dataset_root": "G:\\PhanLoaiRac_Webcam\\dataset-resized",
+  "classes": {
+    "plastic": {
+      "name": "Nhựa",
+      "readable": 482,
+      "errors": 0
+    },
+    "metal": {
+      "name": "Kim loại",
+      "readable": 410,
+      "errors": 0
+    },
+    "cardboard": {
+      "name": "Bìa carton",
+      "readable": 403,
+      "errors": 0
+    },
+    "glass": {
+      "name": "Thủy tinh",
+      "readable": 501,
+      "errors": 0
+    },
+    "paper": {
+      "name": "Giấy",
+      "readable": 594,
+      "errors": 0
+    },
+    "trash": {
+      "name": "Rác khác",
+      "readable": 137,
+      "errors": 0
+    }
+  },
+  "errors": [],
+  "duplicate_groups": {
+    "file_sha256": {
+      "c41b99aec8a3257c8668a2144ebbaf8042018f0a85d88e22bf4e413b43693dd8": [
+        "plastic/plastic152.jpg",
+        "glass/glass176.jpg"
+      ],
+      "e971f4f8f50e960e454ea724cec922fc2988bbf4027aa48b553e139bb5890968": [
+        "plastic/plastic332.jpg",
+        "glass/glass389.jpg"
+      ],
+      "81546d1362d75fc60718e5852593c58f66f813e8c1e9d1eae6871fedb02e2868": [
+        "metal/metal91.jpg",
+        "glass/glass115.jpg"
+      ]
+    },
+    "rgb_sha256": {
+      "4ebdea69bac7f2017f2727da9ed7e385ffc453a2e141b8ae0c33655e0e7bdd81": [
+        "plastic/plastic152.jpg",
+        "glass/glass176.jpg"
+      ],
+      "f8b80e30c08aa72a497451dedfea3fdb523c763e17b07952458af23dd5e30b07": [
+        "plastic/plastic332.jpg",
+        "glass/glass389.jpg"
+      ],
+      "2817d98c744ad8c852df75949d41095d8ab8a64420d074b1d56d6a112ed2c2b1": [
+        "metal/metal91.jpg",
+        "glass/glass115.jpg"
+      ]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "case": "Ghi nền và kiểm tra bàn trống",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 1.13
+  },
+  {
+    "case": "Đặt hoặc đổi vật · plastic/plastic388.jpg",
+    "expected": "plastic",
+    "final_bin": "plastic",
+    "bins": [
+      null,
+      null,
+      "plastic",
+      "plastic",
+      "plastic",
+      "plastic",
+      "plastic"
+    ],
+    "message": "Nhựa · 99%",
+    "matched": true,
+    "p50_processing_ms": 7.04
+  },
+  {
+    "case": "Lấy vật ra · plastic",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 5.95
+  },
+  {
+    "case": "Đặt hoặc đổi vật · metal/metal165.jpg",
+    "expected": "metal",
+    "final_bin": null,
+    "bins": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "message": "Chưa rõ vật liệu. Hãy xoay vật hoặc thử góc khác.",
+    "matched": false,
+    "p50_processing_ms": 33.23
+  },
+  {
+    "case": "Lấy vật ra · metal",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 5.59
+  },
+  {
+    "case": "Đặt hoặc đổi vật · cardboard/cardboard296.jpg",
+    "expected": "cardboard",
+    "final_bin": "paper",
+    "bins": [
+      null,
+      null,
+      "paper",
+      "paper",
+      "paper",
+      "paper",
+      "paper"
+    ],
+    "message": "Giấy · 92%",
+    "matched": false,
+    "p50_processing_ms": 6.65
+  },
+  {
+    "case": "Lấy vật ra · cardboard",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 5.03
+  },
+  {
+    "case": "Đặt hoặc đổi vật · glass/glass276.jpg",
+    "expected": "glass",
+    "final_bin": "glass",
+    "bins": [
+      null,
+      null,
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass"
+    ],
+    "message": "Thủy tinh · 100%",
+    "matched": true,
+    "p50_processing_ms": 6.22
+  },
+  {
+    "case": "Lấy vật ra · glass",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 4.79
+  },
+  {
+    "case": "Đặt hoặc đổi vật · paper/paper180.jpg",
+    "expected": "paper",
+    "final_bin": "paper",
+    "bins": [
+      null,
+      null,
+      "paper",
+      "paper",
+      "paper",
+      "paper",
+      "paper"
+    ],
+    "message": "Giấy · 100%",
+    "matched": true,
+    "p50_processing_ms": 7.86
+  },
+  {
+    "case": "Lấy vật ra · paper",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 4.83
+  },
+  {
+    "case": "Đặt hoặc đổi vật · trash/trash43.jpg",
+    "expected": "trash",
+    "final_bin": null,
+    "bins": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "message": "Có bàn tay trong khung. Hãy đặt vật xuống và rút tay.",
+    "matched": false,
+    "p50_processing_ms": 6.58
+  },
+  {
+    "case": "Lấy vật ra · trash",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null
+    ],
+    "message": "Đưa một vật vào khung",
+    "matched": true,
+    "p50_processing_ms": 5.32
+  },
+  {
+    "case": "Tay không · right_hands.jpg",
+    "expected": null,
+    "final_bin": null,
+    "bins": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "message": "Có bàn tay trong khung. Hãy đặt vật xuống và rút tay.",
+    "matched": true,
+    "p50_processing_ms": 5.54
+  }
+]
